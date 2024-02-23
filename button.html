@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+button {
+  background-color: lightblue;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<button id="myButton">Click me!</button>
+
+<script>
+document.getElementById("myButton").onclick = function() {
+  this.innerHTML = "Clicked!";
+};
+</script>
+
+</body>
+</html>
